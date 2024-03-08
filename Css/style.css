@@ -12,27 +12,34 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color:black;
+    background-color:black !important;
     padding: 10px;
+    
 }
 .nav-text .text h2{
-    color:  #e50914;
+    color:  #e50914 !important;
     font-size: 34px;
     padding-left: 30px;
     font-weight:bolder;
     line-height: unset;
 
 }
-
-.nav-text .links a{
-    color:  #e50914;
-    text-decoration: none;
-    margin: 10px;
-    font-size: 23px;
-    font-weight:bold;
+.nav-text  a{
+    color:  #e50914 !important;
+    font-size: 22px;
+    padding-left: 30px;
+    font-weight:bolder;
     line-height: unset;
-    
+
 }
+
+.toggel-edit{
+    color:#000 !important;
+    background-color:#e50914  !important;
+
+}
+
+
 
 /* End nav section */
 
@@ -118,7 +125,7 @@ hr{
 }
 .media1 h2{
     color: #fff;
-    font-size: 38px;
+    /* font-size: 38px; */
     letter-spacing: 1px;
     font-weight: 600;
 }
@@ -133,7 +140,7 @@ hr{
 }
 
 .media2 h2{
-    font-size: 60px;
+    /* font-size: 60px; */
     letter-spacing: 1px;
     font-weight: bold;
 }
